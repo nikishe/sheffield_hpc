@@ -7,7 +7,6 @@ Hello everyone! Welcome back to our monthly newsletter.
 
 **In this issue:**
 
-- We explain the new vulnerabilities found in R and our plan to fix it with little disruption to our HPC users.
 - Perfomance Benchmarks of pytorch 24.02 on the H100 gpus.
 - New quick reference page on the documentation site.
 - **Important:** Please be aware of pending OS upgrade on both Stanage and Bessemer.
