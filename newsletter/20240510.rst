@@ -1,0 +1,71 @@
+.. _nl20240510:
+
+News - 2024-05-10
+=================
+
+Hello everyone! Welcome back to our monthly newsletter.
+
+**In this issue:**
+
+- We explain the new vulnerabilities found in R and our plan to fix it with little disruption to our HPC users.
+- Perfomance Benchmarks of pytorch 24.02 on the H100 gpus.
+- New quick reference page on the documentation site.
+- **Important:** Please be aware of pending OS upgrade on both Stanage and Bessemer.
+
+Pytorch 24.02 Benchmarks:
+-------------------------
+
+With the release of pytorch 24.02, our resident GPU guru Peter Heywood manged to benchmark it on both the A100 and H100 gpus on stanage against the currently most popular version on our clusters, version 23.07. The image below shows his findings. There was negligible difference between the two versions on the A100. But H100 showed atleast a 60% improvement between the two versions. With these findings, we highly recommend users use Pytorch v24.02 whe working on the H100 nodes.
+
+.. figure:: /images/newsletter/stanage-23.07-24.02.png
+    :width: 90%
+    :align: center
+    :alt: Pytorch 24.02 vs 23.07
+
+    Pytorch 24.02 vs 23.07
+
+
+
+
+Pending Operating System Upgrade on our HPC clusters:
+-----------------------------------------------------
+
+The operating system on Stanage and Bessemer will be upgraded in the next few months. This upgrade ensures the security, stability and performance of our HPC infrastructure. Certain software packages and applications may not be compatible with the new OS (Rocky 9). We encourage you to start thinking about utilising newer versions of software and libraries. We will provide further updates regarding the OS upgrade shortly, including timelines. 
+
+New Documentation
+------------------
+
+The team has added a new `quick reference page <cheatsheets>` to the documentation. Our goal of the quick reference page is to summarise some of the commonly used commands from the HPC documentation onto one convinient, efficient, user friendly page. Any feedback and suggestions are welcome.
+
+.. _upcoming_training_20240510:
+
+Upcoming Training
+-----------------
+
+Below are our research computing key training dates for April. You can register for these courses and more at  `Research Computing Training <https://sites.google.com/sheffield.ac.uk/research-training/>`_ . 
+
+.. warning::
+    For our taught postgraduate users who don't have access to MyDevelopment, please email us at ``researchcomputing@sheffield.ac.uk`` with the course you want to register for, and we should be able to help you.
+
+- 10/05/2024 - Temporal Analysis in Python 
+- 13/05/2024 - Introducing AI into Research 
+- 14/05/2024 - High-Perfomance Computing
+- 14/05/2024 - Data Science 1
+- 16/05/2024 - Introduction to matlab 1
+- 21/05/2024 - Data Science 2
+- 24/05/2024 - Supervised Machine Learning 
+- 28/05/2024 - Introducing AI into Research
+- 30/05/2024 - Deep Learning Twin 1
+- 30/05/2024 - Introduction to matlab 2
+- 30/05/2024 - Introduction to R Programming
+- 30/05/2024 - Python Profiling and optimisation 
+- 31/05/2024 - Deep Learning Twin 2
+
+
+Useful Links
+------------
+
+- :ref:`HPC documentation  <hpc-home>`
+- :ref:`Citing the HPC services in publications.  <citing>`
+- `RSE code clinics <https://rse.shef.ac.uk/support/code-clinic/>`_ . These are fortnightly support sessions run by the RSE team and IT Services' Research IT and support team. They are open to anyone at TUOS writing code for research to get help with programming problems and general advice on best practice.
+- `Training and courses <https://sites.google.com/sheffield.ac.uk/research-training/>`_ (You must be logged into the main university website to view).
