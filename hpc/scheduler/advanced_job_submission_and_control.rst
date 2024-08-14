@@ -21,7 +21,7 @@ Introduction
 ------------
 
 This page details more advanced job submission and control methods that can be used 
-and the more modern :ref:`SLURM scheduler <slurm_info>` on Bessemer and Stanage.
+with the :ref:`SLURM scheduler <slurm_info>` on Bessemer and Stanage.
 
 
 .. raw:: html
